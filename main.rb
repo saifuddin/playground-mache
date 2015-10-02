@@ -1,4 +1,4 @@
-paragraphs = File.read("article.txt").split("\n")
+paragraphs = File.readlines("article.txt").map(&:chomp)
 cities = File.readlines('places.txt').map(&:chomp)
 paragraphs.each do |paragraph|
   p "========"

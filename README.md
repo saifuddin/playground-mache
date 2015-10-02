@@ -1,0 +1,2 @@
+- Run with *ruby main.rb*
+- Quit with ctrl+c
